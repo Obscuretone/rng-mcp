@@ -1,0 +1,6 @@
+[project]
+name = "rng-mcp"
+version = "1.0.0"
+description = "An MCP server for OS-backed random numbers and dice rolls"
+requires-python = ">=3.12"
+dependencies = ["mcp==2.3.0", "pydantic>=2,<3"]
